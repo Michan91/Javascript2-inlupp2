@@ -22,7 +22,7 @@ export default {
 </script>
 <style>
 .footer {
-  margin-top: 50rem;
+  margin-top: 48rem;
   position: absolute;
   width: 100%;
 }

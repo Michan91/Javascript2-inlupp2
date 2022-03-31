@@ -79,7 +79,7 @@
             aria-labelledby="navbarDropdownMenuAvatar"
           >
             <li>
-              <router-link class="dropdown-item" to="/myprofile">Min profil</router-link>
+              <router-link class="dropdown-item" to="/myprofile">Min sida</router-link>
             </li>
             <li>
               <router-link class="dropdown-item" @click="logout" to="/login">Logga ut</router-link>

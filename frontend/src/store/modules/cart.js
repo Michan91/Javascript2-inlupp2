@@ -29,11 +29,22 @@ export default {
           return
         }
         state.cart.push({ product, quantity })
-      }
+      },
+      // REMOVE_ONE: (state, { product, quantity }) => {
+      //     let exist = state.cart.find(item => item.product._id === product._id)
+      //     if(exist) {
+      //       exist.quantity -= quantity
+      //       return
+      //     }
+      //     state.cart.push({ product, quantity }) 
+      // }
     },
     actions: {
       addToCart: ({commit}, { product, quantity }) => {
         commit('ADD_TO_CART', { product, quantity })
-      }
+      },
+      // removeOneFromCart: ({commit}, { product, quantity }) => {
+      //   commit('REMOVE_ONE', { product, quantity })
+      // }
     }
   }

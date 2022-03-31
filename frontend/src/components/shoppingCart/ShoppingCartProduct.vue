@@ -12,7 +12,7 @@
     <div>
       <div class="btn-group btn-group-sm me-2">
         <button class="btn btn-dark" @click.stop="decrement">-</button>
-        <button class="btn btn-dark">+</button>
+        <button class="btn btn-dark" @click.stop="add">+</button>
       </div>
       <button class="btn btn-primary btn-sm"><i class="fa-solid fa-trash"></i></button>
     </div>
@@ -26,6 +26,10 @@ export default {
     decrement() {
       // e.stopPropagation()
       console.log('minus')
+    },
+    add() {
+      // e.stopPropagation()
+      console.log('plus')
     }
   }
 }
