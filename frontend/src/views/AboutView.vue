@@ -4,8 +4,8 @@
     <div class="card w-100">
   <img src="https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_800,h_534/https://slowlivinghome.se/wp-content/uploads/2021/11/5280600221_5280600222_5280600223_5280602721_5280602722_5299001600_5280602723_Preview.jpg" class="card-img-top"/>
   <div class="card-body text-center mt-5">
-    <h3 class="card-title mt-3 text-light">Mittljus</h3>
-    <p class="card-text mt-3 text-light">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique quaerat quibusdam assumenda quae dicta fuga blanditiis facilis, enim qu. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique quaerat quibusdam assumenda quae dicta fuga blanditiis facilis, enim qu. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique quaerat quibusdam assumenda quae dicta fuga blanditiis facilis, enim qu. quibusdam assumenda quae dicta fuga blanditiis facilis, enim qu. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique quaerat quibusdam assumenda quae dicta fuga blanditiis facilis, enim qu. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique quaerat quibusdam assumenda quae dicta fuga blanditiis facilis, enim qu</p>
+    <!-- <h3 class="card-title mt-3 text-light">Mittljus</h3>
+    <p class="card-text mt-3 text-light"></p> -->
   </div>
   <ul class="list-group list-group-flush text-center">
     <li class="list-group-item"><i class="fa-solid fa-phone me-2"></i>+46030303883</li>
@@ -33,7 +33,7 @@ object-fit: cover;
 }
 .list-group {
   position: relative;
-  margin-top: 4rem;
+  margin-top: 20rem;
 }
 .fa-brands {
   font-size: 3rem;

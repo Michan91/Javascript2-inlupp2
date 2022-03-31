@@ -21,7 +21,7 @@
             <!-- Email input -->
             <div class="form-outline form-white mb-4">
               <input type="email" id="form5Example29" class="form-control" />
-              <label class="form-label" for="form5Example29">Email address</label>
+              <label class="form-label" for="form5Example29">Email adress</label>
             </div>
           </div>
           <!--Grid column-->
